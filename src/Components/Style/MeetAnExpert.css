@@ -1,0 +1,52 @@
+
+.MeetAnExpertPageMainContainer{
+    width:100%;
+ 
+   
+    padding-bottom:20px;
+}
+.meetanExpertHeaderBox{
+    width:100%;
+   background-color:rgb(255, 255, 255);
+  
+   display:flex;
+  border:none;
+   justify-content: space-around;
+    box-shadow: 0 2px 40px rgb(219, 217, 217);
+    margin-bottom:2%;
+}
+.MeetExpertInnerBox{
+    padding-left:3%;
+    width:55%;
+  
+
+
+}
+.tableBox{
+    width:100%;
+    display:grid;
+    box-shadow: 0 2px 35px rgb(214, 212, 212);
+    background-color:rgb(189, 192, 192);
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    row-gap: 1px;
+   column-gap: 1px ;
+    height:400px;
+  
+}
+
+.fixedDate{
+    border:1px solid #089097;
+    border-radius:10px;
+}
+.fixedDate:hover{
+    background-color: #11c8d2;
+
+}
+.rightBoxMeetExpert{
+  
+    width:30%;
+margin-left:5%;
+padding-top:7%;
+padding-left:5%;
+}

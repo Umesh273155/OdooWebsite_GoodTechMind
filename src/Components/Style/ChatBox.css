@@ -1,0 +1,226 @@
+
+.chatBoxMainContainer{
+    width:100%;
+
+}
+.chatBoxinnerContainer{
+    width:100%;
+
+}
+.chatBoxheader{
+    width:100%;
+     padding-top:10px;
+    /* padding-bottom:10px;  */
+    background-color:rgb(237, 240, 242);
+    display:flex;
+}
+.alleventsText{
+    margin-left:7%;
+    margin-right:10px;
+    margin-top:7px;
+    color:rgb(14, 137, 137);
+}
+#folder{
+    margin-left:20%;
+    margin-right:5px;
+    margin-top:10px;
+}
+
+.roadshow{
+    margin-right:4%;
+    margin-top:16px;
+    color:grey;
+
+}
+.india{
+    margin-left:5px;
+    margin-top:16px;
+    margin-right:4%;
+    color:grey;
+}
+.searchandinputBox{
+    
+
+}
+.resisterIcons{
+    margin-top:10px;
+
+}
+.inputResister{
+    width:25%;
+    height:33px;
+    margin-top:0;
+    border-radius:6px;
+    border:1px solid grey;
+    padding-left:6px;
+}
+
+.arrow{
+    font-weight: 800;
+    font-size: 30px;
+    margin-top:10px;
+    color:rgb(14, 137, 137);
+}
+.preview{
+    color:rgb(106, 104, 104);
+}
+.preview:hover{
+    color:green;
+}
+
+.chatboximage{
+    width:100%;
+    height:400px;
+    z-index:-1;
+    background-attachment: fixed;
+}
+.backgroundImageChatBox{
+    width:100%;
+    height:400px;
+    background-image: url("../../../public/Photoshop-Replace-Background-Featured.avif");
+   background-size: cover;
+   background-repeat: no-repeat;
+   background-position: center;
+   background-attachment: fixed;
+  
+}
+.ChatBoxContent{
+ padding-top:10%;
+    margin-left:5%;
+
+
+}
+.odooRoadShowBox{
+    /* border:1px solid pink; */
+    width:100%;
+    margin-top:10%;
+    padding-top:10px;
+    padding-bottom:10px;
+    display:flex;
+    justify-content: space-around;
+    background-color: #c6c9cd;
+}
+.resisterationbtn{
+    background-color:#089097; ;
+    color:white;
+    font-weight:700;
+    border-radius:6px;
+    width:15%;
+}
+.ChatBoxContent{
+   padding-left:100px;
+}
+.backgroundImageChatBox{
+    width:100%;
+
+}
+.contentMainbox{
+    width:50%;
+
+    display:flex;
+    padding-left:5%;
+   
+   
+    margin-top:2%;
+    padding-right:15px;
+padding-bottom:3%;
+}
+.im_age{
+    width:100%;
+    margin-top:45px;
+    background-color: #f8f9fa;
+   
+     
+}
+.interactiveDemo{
+    width:45%;
+   
+    background-color: #f8f9fa;
+    margin-top:3%;
+    padding:10px 10px;
+
+}
+.liveDisscussion{
+    width:45%;
+  
+    margin-top:3%;
+}
+.IntrectiveDemoImage{
+    margin-left:30%;
+}
+.whyattendText{
+    color:#089097;
+    margin-top:20px;
+}
+.pastOdooRoadShowBox{
+    width:100%;
+    background-color: #E9ECEF;;
+    border:1px solid red;
+}
+.Imag2{
+    width:98%;
+}
+.ChatBoxRightBox{
+    width:30%;
+    padding-top:15px;
+    background-color: #f8f9fa;
+    margin-top:5.2%;
+    padding-left:4%;
+    padding-right:15px;
+   /* padding-top:4%; */
+   
+}
+.timingBox{
+    color:black;
+}
+.areaLocationBox{
+    text-shadow: none;
+}
+
+#getDirectionLink{
+    text-shadow:0 2px 3px rgb(80, 79, 79);
+   margin-bottom:15px;
+}
+#getDirectionLink:hover{
+    color:rgb(170, 167, 167);
+    
+   }
+   .sharingIcons{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    
+   }
+   .icBox{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    width:55px;
+    height:55px;
+    border-radius:50%;
+    margin-right:2%;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.4);
+   }
+   .fb{
+    color:rgb(112, 112, 233);
+   }
+.tw{
+    color:#089097;
+}
+.wh{
+    color:rgb(5, 103, 34);
+}
+.ln{
+    color:blue;
+}
+.em{
+    color:#99678b;
+}
+  .onfrontBackgroundText{
+     text-align:center;
+     font-weight: 800;
+     font-size:3em;
+     color:white;
+     
+    text-shadow:0 2px 3px rgb(21, 20, 20);
+  }

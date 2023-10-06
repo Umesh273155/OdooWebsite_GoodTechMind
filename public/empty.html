@@ -1,0 +1,918 @@
+<!DOCTYPE html>
+<!-- saved from url=(0021)https://www.odoo.com/ -->
+<html lang="en-US" data-website-id="1" data-main-object="website.page(1,)" data-add2cart-redirect="1" data-country="IN" data-logged="false" data-browser="chrome,113.0.0.0"><!--
+        ___  ___   ___   ___           
+       / _ \|   \ / _ \ / _ \          
+      | (_) | |) | (_) | (_) |         
+       \___/|___/ \___/ \___/          
+   ___ _         _ _                   
+  / __| |_  __ _| | |___ _ _  __ _ ___ 
+ | (__| ' \/ _` | | / -_| ' \/ _` / -_)
+  \___|_||_\__,_|_|_\___|_||_\__, \___|
+                             |___/     
+                             
+  If you're the kind of person who reads source code, you should try our challenge:
+  https://www.odoo.com/jobs/challenge
+--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+      <meta name="mobile-web-app-capable" content="yes">
+        <meta name="generator" content="Odoo">
+      <meta name="google-site-verification" content="pgjyH0qvN69B0m_HrTKV6h8TVnbRXp5etEHo19unPy4">
+        <meta name="description" content="From ERP to CRM, eCommerce and CMS. Download Odoo or use it in the cloud. Grow Your Business.">
+        <meta name="keywords" content="openerp, open source, odoo, business, apps, saas, cloud, insider, erp, business software">
+            
+        <meta property="og:type" content="website">
+        <meta property="og:title" content="Open Source ERP and CRM | Odoo">
+        <meta property="og:site_name" content="Odoo S.A.">
+        <meta property="og:url" content="https://www.odoo.com/">
+        <meta property="og:image" content="https://www.odoo.com/web/image/website/1/social_default_image?unique=5412cda">
+        <meta property="og:description" content="From ERP to CRM, eCommerce and CMS. Download Odoo or use it in the cloud. Grow Your Business.">
+            
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:title" content="Open Source ERP and CRM | Odoo">
+        <meta name="twitter:image" content="https://www.odoo.com/web/image/website/1/social_default_image/300x300?unique=5412cda">
+        <meta name="twitter:site" content="@odoo">
+        <meta name="twitter:description" content="From ERP to CRM, eCommerce and CMS. Download Odoo or use it in the cloud. Grow Your Business.">
+        
+        <link rel="alternate" hreflang="ar" href="https://www.odoo.com/ar">
+        <link rel="alternate" hreflang="zh-cn" href="https://www.odoo.com/zh_CN">
+        <link rel="alternate" hreflang="zh-tw" href="https://www.odoo.com/zh_TW">
+        <link rel="alternate" hreflang="nl" href="https://www.odoo.com/nl_NL">
+        <link rel="alternate" hreflang="en" href="https://www.odoo.com/">
+        <link rel="alternate" hreflang="fr" href="https://www.odoo.com/fr_FR">
+        <link rel="alternate" hreflang="de" href="https://www.odoo.com/de_DE">
+        <link rel="alternate" hreflang="id" href="https://www.odoo.com/id_ID">
+        <link rel="alternate" hreflang="it" href="https://www.odoo.com/it_IT">
+        <link rel="alternate" hreflang="ja" href="https://www.odoo.com/ja_JP">
+        <link rel="alternate" hreflang="ko" href="https://www.odoo.com/ko_KR">
+        <link rel="alternate" hreflang="pt" href="https://www.odoo.com/pt_BR">
+        <link rel="alternate" hreflang="ru" href="https://www.odoo.com/ru_RU">
+        <link rel="alternate" hreflang="sk" href="https://www.odoo.com/sk_SK">
+        <link rel="alternate" hreflang="sl" href="https://www.odoo.com/sl_SI">
+        <link rel="alternate" hreflang="es" href="https://www.odoo.com/es_ES">
+        <link rel="alternate" hreflang="th" href="https://www.odoo.com/th_TH">
+        <link rel="alternate" hreflang="tr" href="https://www.odoo.com/tr_TR">
+        <link rel="alternate" hreflang="uk" href="https://www.odoo.com/uk_UA">
+        <link rel="alternate" hreflang="vi" href="https://www.odoo.com/vi_VN">
+        <link rel="alternate" hreflang="x-default" href="https://www.odoo.com/">
+        <link rel="canonical" href="https://www.odoo.com/">
+        
+        <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin="">
+        <title>Open Source ERP and CRM | Odoo</title>
+        <link type="image/x-icon" rel="shortcut icon" href="https://odoocdn.com/web/image/website/1/favicon?unique=5412cda">
+        <link rel="preload" href="https://odoocdn.com/web/static/src/libs/fontawesome/fonts/fontawesome-webfont.woff2?v=4.7.0" as="font" crossorigin="">
+        <link type="text/css" rel="stylesheet" href="./empty_files/web.assets_frontend.min.css" data-asset-bundle="web.assets_frontend" data-asset-version="3dc1de2">
+        <script id="web.layout.odooscript" type="text/javascript">
+            var odoo = {
+                csrf_token: "233fbf8a66e079701107fa0a565436bfad7b9d00o1717302973",
+                debug: "",
+            };
+        </script>
+        <script type="text/javascript">
+            odoo.__session_info__ = {"is_admin": false, "is_system": false, "is_website_user": true, "user_id": false, "is_frontend": true, "profile_session": null, "profile_collectors": null, "profile_params": null, "show_effect": true, "bundle_params": {"lang": "en_US", "website_id": 1}, "translationURL": "/website/translations", "cache_hashes": {"translations": "9e43558eccc26990555bf369c94ae74787c3af36"}, "recaptcha_public_key": "6Ldp7rgUAAAAAJF-NZ6k-y0HGEPozP3SeROO_z7F", "geoip_country_code": "IN", "geoip_phone_code": 91, "lang_url_code": "en_US", "turnstile_site_key": "0x4AAAAAAADwqVOUIWCeR_H8"};
+            if (!/(^|;\s)tz=/.test(document.cookie)) {
+                const userTZ = Intl.DateTimeFormat().resolvedOptions().timeZone;
+                document.cookie = `tz=${userTZ}; path=/`;
+            }
+        </script>
+        <script defer="defer" type="text/javascript" src="./empty_files/web.assets_frontend_minimal.min.js.download" data-asset-bundle="web.assets_frontend_minimal" data-asset-version="b4b5a87" onerror="__odooAssetError=1"></script>
+        <script defer="defer" type="text/javascript" data-asset-bundle="web.assets_frontend_lazy" data-asset-version="250a349" onerror="__odooAssetError=1" src="./empty_files/web.assets_frontend_lazy.min.js.download"></script>
+        
+                    <script>
+            
+                if (!window.odoo) {
+                    window.odoo = {};
+                }
+                odoo.__session_info__ = Object.assign(odoo.__session_info__ || {}, {
+                    livechatData: {
+                        isAvailable: false,
+                        serverUrl: "https://www.odoo.com",
+                        options: {},
+                    },
+                });
+            
+                    </script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+        </script>
+            <noscript>
+                <style>
+                    /* Prevent animated elements hiding */
+                    .o_animate_in_children > * {
+                        opacity: 1!important;
+                        -webkit-transform: scale(1)!important;
+                        -ms-transform: scale(1)!important;
+                        transform: scale(1)!important;
+                    }
+                </style>
+            </noscript>
+        
+    <style id="conditional_visibility"></style></head>
+    <body class="">
+        <div id="wrapwrap" class="o_home o_footer_effect_enable o_wanim_overflow_xy_hidden"> 
+                <header id="top" data-anchor="true" data-name="Header" class="o_no_autohide_menu o_header_fixed o_header_fade_out o_main_header o_inverted o_not_editable o_top_fixed_element o_header_is_scrolled o_header_affixed o_scrolled" style="transform: translate(0px, 0px); display: none;">
+                    
+        <div class="o_main_header_main" id="top_menu">
+                <a class="float-start o_logo" href="https://www.odoo.com/"><span class="visually-hidden">Odoo</span></a>
+                <a href="https://www.odoo.com/#" role="button" class="o_mobile_menu_toggle o_no_ripple d-inline-block d-md-none">
+                    <i class="fa fa-bars" focusable="false"></i><span class="visually-hidden">Menu</span>
+                </a>
+                <ul class="o_header_buttons mb0">
+
+            <li class="o_wsale_my_cart align-self-md-start d-none nav-item">
+                <a href="https://www.odoo.com/shop/cart" class="nav-link" aria-label="Shopping Cart" data-bs-original-title="" title="">
+                    <i class="fa fa-shopping-cart"></i><sup class="my_cart_quantity badge badge-primary"></sup>
+                </a>
+            </li>
+            <li class="nav-item o_no_autohide_item">
+                <a href="https://www.odoo.com/web/login" class="nav-link">Sign in</a>
+            </li>
+        
+        
+        <li class="nav-item o_no_autohide_item">
+<a class="btn btn-primary trial_link mt0" href="https://www.odoo.com/trial">Try it free</a>
+        </li>
+                </ul>
+                <ul class="o_primary_nav">
+                    <li class="dropdown">
+                            <a href="https://www.odoo.com/#" aria-label="Apps: use the dropdown menu to switch apps" aria-haspopup="true" class="dropdown-toggle o-no-caret">Apps</a>
+                        <div class="start-0 dropdown-menu o_secondary_nav">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-md-3 o_finance_apps ">
+                                        <div class="o_nav_app_family">Finance</div>
+                                        <ul>
+                                            <li><a href="https://www.odoo.com/app/accounting">Accounting</a></li>
+                                            <li><a href="https://www.odoo.com/app/invoicing">Invoicing</a></li>
+                                            <li><a href="https://www.odoo.com/app/expenses">Expenses</a></li>
+                                            <li><a href="https://www.odoo.com/app/spreadsheet">Spreadsheet (BI)</a></li>
+                                            <li><a href="https://www.odoo.com/app/documents">Documents</a></li>
+                                            <li><a href="https://www.odoo.com/app/sign">Sign</a></li>
+
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-3 o_sale_apps ">
+                                        <div class="o_nav_app_family">Sales</div>
+                                        <ul>
+                                            <li><a href="https://www.odoo.com/app/crm">CRM</a></li>
+                                            <li><a href="https://www.odoo.com/app/sales">Sales</a></li>
+                                            <li><a href="https://www.odoo.com/app/point-of-sale-shop">Point of Sale</a></li>
+                                            <li><a href="https://www.odoo.com/app/subscriptions">Subscriptions</a></li>
+                                            <li><a href="https://www.odoo.com/app/rental">Rental</a></li>
+                                            <li><a href="https://www.odoo.com/app/amazon-connector">Amazon Connector</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-3 o_website_apps ">
+                                        <div class="o_nav_app_family">Websites</div>
+                                        <ul>
+                                            <li><a href="https://www.odoo.com/app/website">Website Builder</a></li>
+                                            <li><a href="https://www.odoo.com/app/ecommerce">eCommerce</a></li>
+                                            <li><a href="https://www.odoo.com/app/blog">Blogs</a></li>
+                                            <li><a href="https://www.odoo.com/app/forum">Forum</a></li>
+                                            <li><a href="https://www.odoo.com/app/live-chat">Live Chat</a></li>
+                                            <li><a href="https://www.odoo.com/app/elearning">eLearning</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-3 o_inventory_apps ">
+                                        <div class="o_nav_app_family">Inventory &amp; MRP</div>
+                                        <ul>
+                                            <li><a href="https://www.odoo.com/app/inventory">Inventory</a></li>
+                                            <li><a href="https://www.odoo.com/app/manufacturing">Manufacturing</a></li>
+                                            <li><a href="https://www.odoo.com/app/plm">PLM</a></li>
+                                            <li><a href="https://www.odoo.com/app/purchase">Purchase</a></li>
+                                            <li><a href="https://www.odoo.com/app/maintenance">Maintenance</a></li>
+                                            <li><a href="https://www.odoo.com/app/quality">Quality</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-md-3 o_hr_apps ">
+                                        <div class="o_nav_app_family">Human Resources</div>
+                                        <ul>
+                                            <li><a href="https://www.odoo.com/app/employees">Employees</a></li>
+                                            <li><a href="https://www.odoo.com/app/recruitment">Recruitment</a></li>
+                                            <li><a href="https://www.odoo.com/app/time-off">Time Off</a></li>
+                                            <li><a href="https://www.odoo.com/app/appraisals">Appraisals</a></li>
+                                            <li><a href="https://www.odoo.com/app/referrals">Referrals</a></li>
+                                            <li><a href="https://www.odoo.com/app/fleet">Fleet</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-3 o_marketing_apps ">
+                                        <div class="o_nav_app_family">Marketing</div>
+                                        <ul>
+                                            <li><a href="https://www.odoo.com/app/social-marketing">Social Marketing</a></li>
+                                            <li><a href="https://www.odoo.com/app/email-marketing">Email Marketing</a></li>
+                                            <li><a href="https://www.odoo.com/app/sms-marketing">SMS Marketing</a></li>
+                                            <li><a href="https://www.odoo.com/app/events">Events</a></li>
+                                            <li><a href="https://www.odoo.com/app/marketing-automation">Marketing Automation</a></li>
+                                            <li><a href="https://www.odoo.com/app/surveys">Surveys</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-3 o_services_apps ">
+                                        <div class="o_nav_app_family">Services</div>
+                                        <ul>
+                                            <li><a href="https://www.odoo.com/app/project">Project</a></li>
+                                            <li><a href="https://www.odoo.com/app/timesheet">Timesheet</a></li>
+                                            <li><a href="https://www.odoo.com/app/field-service">Field Service</a></li>
+                                            <li><a href="https://www.odoo.com/app/helpdesk">Helpdesk</a></li>
+                                            <li><a href="https://www.odoo.com/app/planning">Planning</a></li>
+                                            <li><a href="https://www.odoo.com/app/appointments">Appointments</a></li>
+                                        </ul>
+                                    </div>
+                                    <div class="col-md-3 o_productivity_apps ">
+                                        <div class="o_nav_app_family">Productivity</div>
+                                        <ul>
+                                            <li><a href="https://www.odoo.com/app/discuss">Discuss</a></li>
+                                            <li><a href="https://www.odoo.com/app/approvals">Approvals</a></li>
+                                            <li><a href="https://www.odoo.com/app/iot">IoT</a></li>
+                                            <li><a href="https://www.odoo.com/app/voip">VoIP</a></li>
+                                            <li><a href="https://www.odoo.com/app/knowledge">Knowledge<span class="badge text-bg-primary px-1 ms-2">New!</span></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <span class="o_store_link d-md-flex justify-content-md-center">
+                                <a class="mx-md-3 px-3" href="https://apps.odoo.com/apps/modules"><i class="fa fa-cube fa-fw me-2"></i>Third party apps</a>
+                                <a class="mx-md-3 px-3" href="https://www.odoo.com/app/studio"><i class="fa fa-pencil fa-fw me-2"></i>Odoo Studio</a>
+                                <a href="https://www.odoo.sh/" class="mx-md-3 px-3"><i class="fa fa-cloud fa-fw me-2"></i>Odoo Cloud Platform</a>
+                            </span>
+                        </div>
+                    </li>
+                        <li class="dropdown">
+                            <a href="https://www.odoo.com/#" aria-label="Community: use the dropdown menu to find links to community related pages" class="dropdown-toggle o-no-caret">Community</a>
+                            <div class="start-0 dropdown-menu o_secondary_nav pb-0">
+                                <div class="container">
+                                    <div class="row">
+                                        <div class="col-md-3 o_learn_com">
+                                            <div class="o_nav_com_family">Learn
+                                            </div>
+                                            <ul>
+                                                <li><a href="https://www.odoo.com/elearning">Tutorials</a></li>
+                                                <li><a href="https://www.odoo.com/page/docs">Documentation</a></li>
+                                                <li><a href="https://www.odoo.com/slides/all?slide_category=certification">Certifications</a></li>
+                                                <li><a href="https://www.odoo.fm/" target="_blank">Planet Odoo</a></li>
+                                            </ul>
+                                            <div class="o_nav_com_family mt-5">Empower Education
+                                            </div>
+                                            <ul>
+                                                <li><a href="https://www.odoo.com/education/program">Education Program</a></li>
+                                                <li><a href="https://www.odoo.com/education/scale-up-business-game">Scale Up! Business Game</a></li>
+                                                <li><a href="https://www.odoo.com/education/visit-odoo">Visit Odoo</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-3 o_software_com">
+                                            <div class="o_nav_com_family">Get the Software
+                                            </div>
+                                            <ul>
+                                                <li><a href="https://www.odoo.com/page/download">Download</a></li>
+                                                <li><a href="https://www.odoo.com/page/editions">Compare Editions</a></li>
+                                                <li><a href="https://www.odoo.com/page/release-notes">Releases</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-3 o_collab_com">
+                                            <div class="o_nav_com_family">Collaborate
+                                            </div>
+                                            <ul>
+                                                <li><a href="https://github.com/odoo">Github</a></li>
+                                                <li><a href="https://www.odoo.com/forum/help-1">Forum</a></li>
+                                                <li><a href="https://www.odoo.com/events">Events</a></li>
+                                                <li><a href="https://github.com/odoo/odoo/wiki/Translations">Translations</a></li>
+                                            </ul>
+                                            <ul class="pt-lg-3">
+                                                <li><a href="https://www.odoo.com/become-a-partner">Become a Partner</a></li>
+                                                <li><a href="https://www.odoo.com/accounting-firms/register">Register your Accounting Firm</a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-3 o_services_com">
+                                            <div class="o_nav_com_family">Get Services
+                                            </div>
+                                            <ul>
+                                                <li><a href="https://www.odoo.com/partners">Find a Partner</a></li>
+                                                <li><a href="https://www.odoo.com/accounting-firms">Find an Accountant</a></li>
+                                            </ul>
+                                            <ul class="pt-lg-3">
+                                                <li><div class="o_schedule_demo ">
+            
+              <a target="_blank" href="https://www.odoo.com/appointment/197" class="text-start">
+                Meet an Expert
+              </a>
+            
+    </div>
+                                                </li>
+                                                <li><a href="https://www.odoo.com/blog/customer-reviews-6">Customer References</a></li>
+                                            </ul>
+                                            <ul class="pt-lg-3">
+                                                <li><a href="https://www.odoo.com/pricing-packs">Implementation Services</a></li>
+                                                <li><a href="https://www.odoo.com/help">Support</a></li>
+                                                <li><a href="https://upgrade.odoo.com/">Upgrades</a></li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <span class="o_header_social">
+                                    <div class="social_icons">
+                                        <a target="_blank" href="https://github.com/odoo/odoo" class="d-inline"><i class="fa fa-fw fa-github" focusable="false"></i><span class="visually-hidden">Github</span></a>
+                                        <a target="_blank" href="https://www.youtube.com/channel/UCkQPikELWZFLgQNHd73jkdg" class="d-inline"><i class="fa fa-fw fa-youtube-play" focusable="false"></i><span class="visually-hidden">Youtube</span></a>
+                                        <a target="_blank" href="https://twitter.com/Odoo" class="d-inline"><i class="fa fa-fw fa-twitter" focusable="false"></i><span class="visually-hidden">Twitter</span></a>
+                                        <a target="_blank" href="https://www.linkedin.com/company/odoo" class="d-inline"><i class="fa fa-fw fa-linkedin" focusable="false"></i><span class="visually-hidden">Linkedin</span></a>
+                                        <a target="_blank" href="https://www.instagram.com/odoo.official" class="d-inline"><i class="fa fa-fw fa-instagram" focusable="false"></i><span class="visually-hidden">Instagram</span></a>
+                                        <a target="_blank" href="https://www.facebook.com/odoo" class="d-inline"><i class="fa fa-fw fa-facebook" focusable="false"></i><span class="visually-hidden">Facebook</span></a>
+                                        <a target="_blank" href="https://www.tiktok.com/@odoo" class="d-inline">
+                                            <svg xmlns="http://www.w3.org/2000/svg" style="width: 15px; margin-top: -3px;" class="custom-tiktok" viewBox="0 0 2859 3333" shape-rendering="geometricPrecision" text-rendering="geometricPrecision" image-rendering="optimizeQuality" fill-rule="evenodd" clip-rule="evenodd" fill="currentColor"><path d="M2081 0c55 473 319 755 778 785v532c-266 26-499-61-770-225v995c0 1264-1378 1659-1932 753-356-583-138-1606 1004-1647v561c-87 14-180 36-265 65-254 86-398 247-358 531 77 544 1075 705 992-358V1h551z"></path></svg>
+                                        </a>
+                                        <a target="_blank" href="https://podcast.odoo.com/" class="d-inline"><i class="fa fa-fw fa-spotify" focusable="false"></i><span class="visually-hidden">Spotify</span></a>
+                                    </div>
+                                    <div>
+                                        <a class="d-inline" href="tel:+917940500100"><i class="fa fa-phone text-muted me-1"></i>+91 79 4050 0100</a><div class="o_schedule_demo w-auto">
+            
+              <a target="_blank" href="https://www.odoo.com/appointment/197" class="d-inline text-start">
+                <i class="fa fa-calendar text-muted"></i> Get a demo
+              </a>
+            
+    </div>
+                                    </div>
+                                </span>
+                            </div>
+                        </li>
+                        <li><a href="https://www.odoo.com/pricing">Pricing</a></li>
+                </ul>
+            </div>
+    
+        </header>
+                <main style="">
+                    
+
+        
+
+        
+        <div id="wrap">
+            
+
+            
+            <section class="bg-white pt80 pb80" style="border-top: 0 !important;">
+                <div class="o_stripe o_skew_sm o_gradient"></div>
+                <div class="container pb-lg-0 pb-md-5">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-lg-8 text-start text-sm-center text-lg-start">
+                            
+                                <div class="d-none d-md-block">
+                                <a class="o_banner_announcement d-sm-inline-flex align-items-sm-center rounded mb-4 p-2" target="_blank" href="https://odoo.com/event/odoo-16-roadshow-kochi-india-4183/register">
+                                    <img class="img" height="19px" alt="" src="./empty_files/in.png" loading="lazy" style="">
+                                    <p class="mb-sm-0 mx-sm-3"><b>Odoo 16 Roadshow - Kochi (India)</b> • <span>Jun 23, 2023</span>
+                                                            </p>
+                                <span class="badge badge-primary py-1 px-2">REGISTER</span>
+                                </a></div>
+                            
+                            <h1 class="text-white my-3">
+                                <span class="display-3 fw_extralight">Amazing employees deserve</span>
+                                <br>
+                                <span class="display-1">amazing software</span>
+                            </h1>
+                            <p class="mb-5 text-white">The only platform you will ever need to help run your business:<br>integrated apps, kept simple, and loved by millions of happy users.</p>
+                            <a href="https://www.odoo.com/trial" class="mb-2 btn btn-primary btn-lg">Start Now. It's Free</a><div class="o_schedule_demo w-auto w-lg-100 ms-3 text-start">
+            
+              <a target="_blank" href="https://www.odoo.com/appointment/197" class="mb-2 btn btn-secondary btn-lg">
+                Meet an Expert
+              </a>
+            
+    </div>
+                            <div class="text-white d-flex flex-row mt16">
+                                <div><img class="img mr16" height="32px" src="./empty_files/in.png" loading="lazy" style=""></div>
+                                <div class="lh-1">
+                                    <b>079 40 500 100</b><br>
+                                    <small>Mon-Fri 10AM-7PM</small>
+                                </div>
+                            </div>
+    <a class="mt-4 mb-3 visible-android" target="_blank" href="https://play.google.com/store/apps/details?id=com.odoo.mobile&amp;hl=en&amp;pcampaignid=MKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1">
+      <img style="width: 164px; min-height: 1px;" alt="Google Play पर पाएं" src="./empty_files/PlayStore_HI.png" loading="lazy" data-lazy-loading-initial-min-height="">
+    </a>
+    <a class="mt-4 mb-3 visible-ios" target="_blank" href="https://itunes.apple.com/us/app/odoo/id1272543640?mt=8">
+      <img style="width: 164px; min-height: 1px;" alt="Download on the Apple Store" src="./empty_files/Apple_Store_Badge_ENUS.svg" loading="lazy" data-lazy-loading-initial-min-height="">
+    </a>
+                        </div>
+                        <div class="d-none d-lg-block col-lg-4 col-xl-4 position-relative">
+                            <div class="s_panel_video position-absolute" style="top: 40%; left: 20%;" data-video-id="y7TlnAv6cto">
+                                <a href="https://www.odoo.com/#" class="btn_video_play">
+                                    <i class="fa fa-2x fa-fw fa-play o-icon bg-primary text-white border-0 ps-2"></i>
+                                </a>
+                            </div>
+                            <img src="./empty_files/homepage-desktop.png" loading="eager" class="o_banner_home_image float-end" alt="Odoo - Project App - Tasks Dashboard">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            
+            <section class="bg-white pt40 pb40">
+                <h2 class="text-center mb-5">An<b> app</b> for every need</h2>
+                <div class="o_apps_list px-3">
+                    <div class="container position-relative text-center">
+                        <div class="o_app_entry_pseudo_container d-none d-lg-flex o_app_entry_pseudo_container_left">
+                            <span class="o_app_entry o_app_pseudo ms-0">
+                                <span class="d-block bg-200"></span>
+                            </span>
+                            <span class="o_app_entry o_app_pseudo ms-0">
+                                <span class="d-block bg-100"></span>
+                            </span>
+                        </div>
+                        <div class="row">
+                            <div class="col col-lg-4 d-flex justify-content-center justify-content-lg-start">
+                                <div class="d-flex flex-column">
+                                    <b class="o_apps_list_col_title">BOOST YOUR SALES</b>
+                                    <div class="d-inline-flex o_animate o_animate_in_children o_visible o_animating" style="animation-name: none; animation-play-state: running; visibility: visible;">
+    
+    <a class="o_app_entry " href="https://www.odoo.com/app/crm" style="transition-delay: 0ms;">
+      <img class="deep-1" src="./empty_files/icon.svg" alt="CRM" loading="lazy" style="">
+      <b class="text-body">CRM</b>
+    </a>
+    
+    <a class="o_app_entry " href="https://www.odoo.com/app/point-of-sale-shop" style="transition-delay: 100ms;">
+      <img class="deep-1" src="./empty_files/icon(1).svg" alt="POS" loading="lazy" style="">
+      <b class="text-body">POS</b>
+    </a>
+    
+    <a class="o_app_entry " href="https://www.odoo.com/app/sales" style="transition-delay: 200ms;">
+      <img class="deep-1" src="./empty_files/icon(2).svg" alt="Sales" loading="lazy" style="">
+      <b class="text-body">Sales</b>
+    </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col col-lg-4 d-flex justify-content-center">
+                                <div class="d-flex flex-column">
+                                    <b class="o_apps_list_col_title">INTEGRATE YOUR SERVICES</b>
+                                    <div class="d-inline-flex o_animate o_animate_in_children o_visible o_animating" style="animation-name: none; animation-play-state: running; visibility: visible;">
+    
+    <a class="o_app_entry " href="https://www.odoo.com/app/project" style="transition-delay: 0ms;">
+      <img class="deep-1" src="./empty_files/icon(3).svg" alt="Project" loading="lazy" style="">
+      <b class="text-body">Project</b>
+    </a>
+    
+    <a class="o_app_entry " href="https://www.odoo.com/app/timesheet" style="transition-delay: 100ms;">
+      <img class="deep-1" src="./empty_files/icon(4).svg" alt="Timesheet" loading="lazy" style="">
+      <b class="text-body">Timesheet</b>
+    </a>
+    
+    <a class="o_app_entry " href="https://www.odoo.com/app/helpdesk" style="transition-delay: 200ms;">
+      <img class="deep-1" src="./empty_files/icon(5).svg" alt="Helpdesk" loading="lazy" style="">
+      <b class="text-body">Helpdesk</b>
+    </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col col-lg-4 d-flex justify-content-center justify-content-lg-end">
+                                <div class="d-flex flex-column">
+                                    <b class="o_apps_list_col_title">STREAMLINE YOUR OPERATIONS</b>
+                                    <div class="d-inline-flex o_animate o_animate_in_children o_visible o_animating" style="animation-name: none; animation-play-state: running; visibility: visible;">
+    
+    <a class="o_app_entry " href="https://www.odoo.com/app/inventory" style="transition-delay: 0ms;">
+      <img class="deep-1" src="./empty_files/icon(6).svg" alt="Inventory" loading="lazy" style="">
+      <b class="text-body">Inventory</b>
+    </a>
+    
+    <a class="o_app_entry " href="https://www.odoo.com/app/manufacturing" style="transition-delay: 100ms;">
+      <img class="deep-1" src="./empty_files/icon(7).svg" alt="MRP" loading="lazy" style="">
+      <b class="text-body">MRP</b>
+    </a>
+    
+    <a class="o_app_entry " href="https://www.odoo.com/app/purchase" style="transition-delay: 200ms;">
+      <img class="deep-1" src="./empty_files/icon(8).svg" alt="Purchase" loading="lazy" style="">
+      <b class="text-body">Purchase</b>
+    </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="o_app_entry_pseudo_container d-none d-lg-flex o_app_entry_pseudo_container_right">
+                            <span class="o_app_entry o_app_pseudo ms-0">
+                                <span class="d-block bg-100"></span>
+                            </span>
+                        </div>
+                    </div>
+                    <div class="container position-relative text-center">
+                        <div class="o_app_entry_pseudo_container d-none d-lg-flex o_app_entry_pseudo_container_left">
+                            <span class="o_app_entry o_app_pseudo ms-0">
+                                <span class="d-block bg-100"></span>
+                            </span>
+                        </div>
+                        <div class="row">
+                            <div class="d-flex col-12 col-sm-6 col-md-6 col-lg-3 justify-content-center justify-content-lg-start">
+                                <div class="d-flex flex-column">
+                                    <b class="o_apps_list_col_title">BUILD STUNNING WEBSITES</b>
+                                    <div class="d-inline-flex o_animate o_animate_in_children o_visible o_animating" style="animation-name: none; animation-play-state: running; visibility: visible;">
+    
+    <a class="o_app_entry " href="https://www.odoo.com/app/website" style="transition-delay: 0ms;">
+      <img class="deep-1" src="./empty_files/icon(9).svg" alt="Website Builder" loading="lazy" style="">
+      <b class="text-body">Website Builder</b>
+    </a>
+    
+    <a class="o_app_entry " href="https://www.odoo.com/app/ecommerce" style="transition-delay: 100ms;">
+      <img class="deep-1" src="./empty_files/icon(10).svg" alt="eCommerce" loading="lazy" style="">
+      <b class="text-body">eCommerce</b>
+    </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex col-12 col-sm-6 col-md-6 col-lg-3 justify-content-center">
+                                <div class="d-flex flex-column">
+                                    <b class="o_apps_list_col_title">MANAGE YOUR FINANCES</b>
+                                    <div class="d-inline-flex o_animate o_animate_in_children o_visible o_animating" style="animation-name: none; animation-play-state: running; visibility: visible;">
+    
+    <a class="o_app_entry " href="https://www.odoo.com/app/invoicing" style="transition-delay: 0ms;">
+      <img class="deep-1" src="./empty_files/icon.png" alt="Invoicing" loading="lazy" style="">
+      <b class="text-body">Invoicing</b>
+    </a>
+    
+    <a class="o_app_entry " href="https://www.odoo.com/app/accounting" style="transition-delay: 100ms;">
+      <img class="deep-1" src="./empty_files/icon(11).svg" alt="Accounting" loading="lazy" style="">
+      <b class="text-body">Accounting</b>
+    </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex col-12 col-sm-6 col-md-6 col-lg-3 justify-content-center">
+                                <div class="d-flex flex-column">
+                                    <b class="o_apps_list_col_title">AMPLIFY YOUR MARKETING</b>
+                                    <div class="d-inline-flex o_animate o_animate_in_children o_visible o_animating" style="animation-name: none; animation-play-state: running; visibility: visible;">
+    
+    <a class="o_app_entry " href="https://www.odoo.com/app/email-marketing" style="transition-delay: 0ms;">
+      <img class="deep-1" src="./empty_files/icon(12).svg" alt="Email Marketing" loading="lazy" style="">
+      <b class="text-body">Email Marketing</b>
+    </a>
+    
+    <a class="o_app_entry " href="https://www.odoo.com/app/marketing-automation" style="transition-delay: 100ms;">
+      <img class="deep-1" src="./empty_files/icon(13).svg" alt="Marketing Automation" loading="lazy" style="">
+      <b class="text-body">Marketing Automation</b>
+    </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex col-12 col-sm-6 col-md-6 col-lg-3 justify-content-center justify-content-lg-end">
+                                <div class="d-flex flex-column">
+                                    <b class="o_apps_list_col_title">CUSTOMIZE &amp; DEVELOP </b>
+                                    <div class="d-inline-flex o_animate o_animate_in_children o_visible o_animating" style="animation-name: none; animation-play-state: running; visibility: visible;">
+    
+    <a class="o_app_entry " href="https://www.odoo.com/app/studio" style="transition-delay: 0ms;">
+      <img class="deep-1" src="./empty_files/icon(14).svg" alt="Studio" loading="lazy" style="">
+      <b class="text-body">Studio</b>
+    </a>
+    
+    <a class="o_app_entry " href="http://www.odoo.sh/" style="transition-delay: 100ms;">
+      <img class="deep-1" src="./empty_files/sh.jpg" alt="odoo.sh" loading="lazy" style="">
+      <b class="text-body">odoo.sh</b>
+    </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="o_app_entry_pseudo_container d-none d-lg-flex o_app_entry_pseudo_container_right">
+                            <span class="o_app_entry o_app_pseudo ms-0">
+                                <span class="d-block bg-200"></span>
+                            </span>
+                            <span class="o_app_entry o_app_pseudo ms-0">
+                                <span class="d-block bg-100"></span>
+                            </span>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center">
+                    <a href="https://www.odoo.com/page/all-apps" class="btn btn-secondary">… and many more</a>
+                </div>
+            </section>
+
+            
+            <section class="bg-white">
+                <div class="o_stripe o_skew_sm bg-200"></div>
+                <div class="container-fluid py-md-5">
+                    <div class="row align-items-center">
+                        <div class="d-none d-sm-inline-block col-sm-10 col-lg-6">
+                            <img src="./empty_files/screens-mockup.png" class="img-fluid" style="margin-left: -1rem;" alt="Odoo" loading="eager">
+                        </div>
+                        <div class="col-sm-8 offset-sm-2 col-lg-6 offset-lg-0 col-xl-5 pt80 pb80">
+                            <h3 class="mt-0 mb-3">No more <b>painful integrations</b>.</h3>
+                            <p>If you have individual software solutions that work, but don't talk to each other, you are probably entering things more than once and missing a comprehensive overview of what's going on.<br><br>Between the Odoo apps and the tens of thousands of Community apps, there is something to help address all of your business needs in a single, cost-effective and modular solution: no more work to get different technology cooperating.</p>
+                            <p class="mb-4">Odoo apps are perfectly integrated with each other, allowing you to fully automate your business processes and reap the savings and benefits.</p>
+        <div class="s_testimonial fw_medium">
+            <div class="thumb">
+                <img src="./empty_files/marc_peeters_sodexo.png" alt="" class="img-fluid" loading="lazy" style="">
+            </div>
+            <blockquote class="mb-0">
+                <p class="mb-1">“We replaced 14 different applications and increased revenues by 10% overnight.”</p>
+                <p><small>Marc Peeters, General Manager of the Vending Division</small></p>
+                <img src="./empty_files/sodexo.png" alt="" loading="lazy" style="">
+            </blockquote>
+        </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            
+            <section class="bg-white pt80 pb40">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-md-10 offset-md-1 col-lg-6 offset-lg-0 pb40">
+                            <h3 class="mt-0 mb-1">A <b>unique</b> value proposition</h3>
+                            <h5 class="mt-0 mb-4 fw_regular">Everything you need with a top-notch user experience.</h5>
+                            <p>Our family of apps works seamlessly together - giving you the ability to automate and track everything you do - centralized, online, and accessible from anywhere with any device.</p>
+                            <p>The <strong>open-source development model of Odoo</strong> has allowed us to leverage thousands of developers and business experts to build the world's largest ecosystem of fully integrated business apps.</p>
+                            <p>With a modern and elegant technical design, Odoo's framework is unique. It allows us and our community developers to provide <strong>top-notch usability that scales across all apps</strong>.</p>
+                            <p>Usability improvements made to Odoo will be automatically applied to all of our integrated apps.</p>
+                            <p>Finally, with regular annual releases, Odoo evolves much faster than any other solution.</p>
+                        </div>
+                        <div class="col-md-10 offset-md-1 col-lg-6 offset-lg-0 col-xl-5 offset-xl-1 pb40">
+                            <img class="img-fluid" src="./empty_files/market_position_update.svg" alt="Odoo Comparison - User-friendliness and business scope vs. Oracle, SAP, Microsoft Dynamics, NetSuite, etc." loading="lazy" style="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            
+            
+                <section class="s_sponsors text-center">
+                    <a href="https://www.odoo.com/blog/customer-reviews-6" class="container">
+                        <div class="row">
+                            <div class="col-md-3 offset-md-1 col-lg-2 offset-lg-1 d-none d-md-block text-uppercase s_intro">
+                                <div class="text-end float-start">Loved by 1000+<br>Indian companies</div>
+                            </div>
+                            <div class="col-md-8 col-lg-9 s_sponsors_list">
+                                <div style="background-image: url(https://odoocdn.com/openerp_website/static/src/img/2018/customers/customers_in.gif); width: 66px; background-position: 0% 0;"></div>
+                                <div style="background-image: url(https://odoocdn.com/openerp_website/static/src/img/2018/customers/customers_in.gif); width: 180px; background-position: 13.8% 0;"></div>
+                                <div style="background-image: url(https://odoocdn.com/openerp_website/static/src/img/2018/customers/customers_in.gif); width: 45px; background-position: 40.1% 0;"></div>
+                                <div style="background-image: url(https://odoocdn.com/openerp_website/static/src/img/2018/customers/customers_in.gif); width: 118px; background-position: 53.75% 0;"></div>
+                                <div style="background-image: url(https://odoocdn.com/openerp_website/static/src/img/2018/customers/customers_in.gif); width: 53px; background-position: 67.5% 0;"></div>
+                                <div style="background-image: url(https://odoocdn.com/openerp_website/static/src/img/2018/customers/customers_in.gif); width: 57px; background-position: 77% 0;"></div>
+                                <div style="background-image: url(https://odoocdn.com/openerp_website/static/src/img/2018/customers/customers_in.gif); width: 138px; background-position: 100% 0;"></div>
+                            </div>
+                        </div>
+                        <span class="btn btn-lg btn-primary s_sponsors_btn">Our Customers</span>
+                    </a>
+                </section>
+
+            
+
+            
+
+            
+        <section class="s_users_mosaic">
+            <div id="mosaic"><span style="background-position: 0% 0%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 5.88235% 0%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 11.7647% 0%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 17.6471% 0%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 23.5294% 0%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 29.4118% 0%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 35.2941% 0%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 41.1765% 0%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 47.0588% 0%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 52.9412% 0%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 58.8235% 0%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 64.7059% 0%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 70.5882% 0%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 76.4706% 0%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 82.3529% 0%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 88.2353% 0%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 94.1176% 0%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 100% 0%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 0% 14.2857%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 5.88235% 14.2857%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 11.7647% 14.2857%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 17.6471% 14.2857%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 23.5294% 14.2857%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 29.4118% 14.2857%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 35.2941% 14.2857%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 41.1765% 14.2857%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 47.0588% 14.2857%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 52.9412% 14.2857%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 58.8235% 14.2857%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 64.7059% 14.2857%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 70.5882% 14.2857%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 76.4706% 14.2857%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 82.3529% 14.2857%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 88.2353% 14.2857%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 94.1176% 14.2857%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 100% 14.2857%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 0% 28.5714%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 5.88235% 28.5714%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 11.7647% 28.5714%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 17.6471% 28.5714%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 23.5294% 28.5714%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 29.4118% 28.5714%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 35.2941% 28.5714%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 41.1765% 28.5714%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 47.0588% 28.5714%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 52.9412% 28.5714%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 58.8235% 28.5714%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 64.7059% 28.5714%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 70.5882% 28.5714%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 76.4706% 28.5714%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 82.3529% 28.5714%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 88.2353% 28.5714%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 94.1176% 28.5714%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 100% 28.5714%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 0% 42.8571%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 5.88235% 42.8571%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 11.7647% 42.8571%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 17.6471% 42.8571%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 23.5294% 42.8571%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 29.4118% 42.8571%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 35.2941% 42.8571%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 41.1765% 42.8571%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 47.0588% 42.8571%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 52.9412% 42.8571%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 58.8235% 42.8571%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 64.7059% 42.8571%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 70.5882% 42.8571%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 76.4706% 42.8571%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 82.3529% 42.8571%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 88.2353% 42.8571%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 94.1176% 42.8571%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 100% 42.8571%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 0% 57.1429%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 5.88235% 57.1429%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 11.7647% 57.1429%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 17.6471% 57.1429%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 23.5294% 57.1429%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 29.4118% 57.1429%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 35.2941% 57.1429%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 41.1765% 57.1429%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 47.0588% 57.1429%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 52.9412% 57.1429%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 58.8235% 57.1429%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 64.7059% 57.1429%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 70.5882% 57.1429%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 76.4706% 57.1429%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 82.3529% 57.1429%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 88.2353% 57.1429%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 94.1176% 57.1429%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 100% 57.1429%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 0% 71.4286%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 5.88235% 71.4286%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 11.7647% 71.4286%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 17.6471% 71.4286%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 23.5294% 71.4286%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 29.4118% 71.4286%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 35.2941% 71.4286%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 41.1765% 71.4286%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 47.0588% 71.4286%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 52.9412% 71.4286%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 58.8235% 71.4286%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 64.7059% 71.4286%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 70.5882% 71.4286%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 76.4706% 71.4286%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 82.3529% 71.4286%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 88.2353% 71.4286%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 94.1176% 71.4286%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 100% 71.4286%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 0% 85.7143%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 5.88235% 85.7143%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 11.7647% 85.7143%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 17.6471% 85.7143%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 23.5294% 85.7143%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 29.4118% 85.7143%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 35.2941% 85.7143%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 41.1765% 85.7143%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 47.0588% 85.7143%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 52.9412% 85.7143%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 58.8235% 85.7143%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 64.7059% 85.7143%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 70.5882% 85.7143%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 76.4706% 85.7143%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 82.3529% 85.7143%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 88.2353% 85.7143%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 94.1176% 85.7143%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 100% 85.7143%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 0% 100%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 5.88235% 100%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 11.7647% 100%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 17.6471% 100%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 23.5294% 100%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 29.4118% 100%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 35.2941% 100%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 41.1765% 100%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 47.0588% 100%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 52.9412% 100%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 58.8235% 100%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 64.7059% 100%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 70.5882% 100%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 76.4706% 100%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 82.3529% 100%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 88.2353% 100%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 94.1176% 100%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span><span style="background-position: 100% 100%; background-image: url(&quot;/openerp_website/static/src/img/2016/mosaic_1.jpg&quot;);"></span></div>
+            <div class="box">
+                <div class="h1 title">
+                    <span class="number">7</span>Million users<br>
+                    <span class="sub">grow their business with Odoo</span>
+                </div>
+            </div>
+        </section>
+
+            
+            <section class="o_gradient pt40">
+                <div class="container">
+                    <div class="row align-items-sm-center">
+                        <div class="col-lg-6 text-center text-lg-end pb40">
+                            <h3 class="text-white"><b>Unleash</b> your <b>growth potential</b></h3>
+                            <p class="text-white mb-0"><small>No credit card required - Instant access</small></p>
+                        </div>
+                        <div class="col-lg-6 text-center text-lg-start pb40">
+                            <a href="https://www.odoo.com/trial" class="btn btn-lg btn-primary o_btn_cta">Start Now - It's Free</a>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    
+        <div id="o_shared_blocks" class="oe_unremovable"></div>
+                </main>
+                <footer id="bottom" data-anchor="true" data-name="Footer" class="o_footer o_colored_level o_cc  o_footer_slideout">
+                    
+    <div id="footer" class="container o_not_editable ">
+                <span class="o_logo o_logo_inverse d-block mx-auto o_footer_logo my-5"></span>
+                <div class="row">
+                    <div class="col-12 col-lg-7 col-xl-6">
+                        <div class="row">
+                            <div class="col-12 col-md-4 mb-3 mb-md-0">
+                                <div class="row">
+                                    <div class="col-6 col-md-12">
+                                        <span class="o_footer_title">Community</span>
+                                        <ul class="o_footer_links list-unstyled">
+                                            <li><a href="https://www.odoo.com/slides">Tutorials</a></li>
+                                            <li><a href="https://www.odoo.com/page/docs">Documentation</a></li>
+                                            <li><a href="https://www.odoo.com/forum/help-1">Forum</a></li>
+                                            
+                                        </ul>
+                                    </div>
+                                    <div class="col-6 col-md-12">
+                                        <span class="o_footer_title">Open Source</span>
+                                        <ul class="o_footer_links list-unstyled">
+                                            <li><a href="https://www.odoo.com/page/download">Download</a></li>
+                                            <li class="divider"></li>
+                                            <li><a href="https://github.com/odoo/odoo">Github</a></li>
+                                            <li><a href="https://runbot.odoo.com/">Runbot</a></li>
+                                            <li><a href="https://github.com/odoo/odoo/wiki/Translations">Translations</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-6 col-md-4">
+                                <span class="o_footer_title">Services</span>
+                                <ul class="o_footer_links list-unstyled">
+                                    <li><a href="https://www.odoo.sh/">Odoo.sh Hosting</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="https://www.odoo.com/help">Support</a></li>
+                                    <li><a href="https://upgrade.odoo.com/">Upgrade</a></li>
+                                    <li><a href="https://www.odoo.com/education/program">Education</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="https://www.odoo.com/accounting-firms">Find an Accountant</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="https://www.odoo.com/partners">Find a Partner</a></li>
+                                    <li><a href="https://www.odoo.com/become-a-partner">Become a Partner</a></li>
+                                </ul>
+                            </div>
+                            <div class="col-6 col-md-4 mb64">
+                                <span class="o_footer_title">About us</span>
+                                <ul class="o_footer_links list-unstyled">
+                                    <li><a href="https://www.odoo.com/page/about-us">Our company</a></li>
+                                    <li><a href="https://www.odoo.com/contactus">Contact us</a></li>
+                                    <li><a href="https://www.odoo.com/jobs">Jobs</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="https://www.odoo.com/events">Events</a></li>
+                                    <li><a href="https://podcast.odoo.com/">Podcast</a></li>
+                                    <li><a href="https://www.odoo.com/blog">Blog</a></li>
+                                    <li><a href="https://www.odoo.com/blog/6">Customers</a></li>
+                                    <li class="divider"></li>
+                                    <li><a href="https://www.odoo.com/legal">Legal</a> <span class="small text-muted">•</span> <a href="https://www.odoo.com/privacy">Privacy</a></li>
+                                    <li><a href="https://www.odoo.com/security">Security</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-lg-5 col-xl-5 offset-xl-1">
+                        <div class="d-flex align-items-center justify-content-between">
+        
+            <div class="js_language_selector o_language_selector dropdown d-print-none">
+                <button type="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="true" class="btn btn-sm btn-outline-secondary border-0 dropdown-toggle ">
+    <img class="o_lang_flag" src="./empty_files/us.png" loading="lazy" style="">
+                    <span class="align-middle">English</span>
+                </button>
+                <div role="menu" class="dropdown-menu ">
+                        <a href="https://www.odoo.com/ar" class="dropdown-item js_change_lang " data-url_code="ar">
+    <img class="o_lang_flag" src="./empty_files/Arabic (Syria) _ الْعَرَبيّة.png" loading="lazy" data-lazy-loading-initial-min-height="" style="min-height: 1px;">
+                            <span> الْعَرَبيّة</span>
+                        </a>
+                        <a href="https://www.odoo.com/zh_CN" class="dropdown-item js_change_lang " data-url_code="zh_CN">
+    <img class="o_lang_flag" src="./empty_files/cn.png" loading="lazy" data-lazy-loading-initial-min-height="" style="min-height: 1px;">
+                            <span> 简体中文</span>
+                        </a>
+                        <a href="https://www.odoo.com/zh_TW" class="dropdown-item js_change_lang " data-url_code="zh_TW">
+    <img class="o_lang_flag" src="./empty_files/tw.png" loading="lazy" data-lazy-loading-initial-min-height="" style="min-height: 1px;">
+                            <span> 繁體中文</span>
+                        </a>
+                        <a href="https://www.odoo.com/nl_NL" class="dropdown-item js_change_lang " data-url_code="nl_NL">
+    <img class="o_lang_flag" src="./empty_files/nl.png" loading="lazy" data-lazy-loading-initial-min-height="" style="min-height: 1px;">
+                            <span> Nederlands</span>
+                        </a>
+                        <a href="https://www.odoo.com/" class="dropdown-item js_change_lang active" data-url_code="en_US">
+    <img class="o_lang_flag" src="./empty_files/us.png" loading="lazy" style="">
+                            <span>English</span>
+                        </a>
+                        <a href="https://www.odoo.com/fr_FR" class="dropdown-item js_change_lang " data-url_code="fr_FR">
+    <img class="o_lang_flag" src="./empty_files/fr.png" loading="lazy" data-lazy-loading-initial-min-height="" style="min-height: 1px;">
+                            <span> Français</span>
+                        </a>
+                        <a href="https://www.odoo.com/de_DE" class="dropdown-item js_change_lang " data-url_code="de_DE">
+    <img class="o_lang_flag" src="./empty_files/de.png" loading="lazy" data-lazy-loading-initial-min-height="" style="min-height: 1px;">
+                            <span> Deutsch</span>
+                        </a>
+                        <a href="https://www.odoo.com/id_ID" class="dropdown-item js_change_lang " data-url_code="id_ID">
+    <img class="o_lang_flag" src="./empty_files/id.png" loading="lazy" data-lazy-loading-initial-min-height="" style="min-height: 1px;">
+                            <span> Bahasa Indonesia</span>
+                        </a>
+                        <a href="https://www.odoo.com/it_IT" class="dropdown-item js_change_lang " data-url_code="it_IT">
+    <img class="o_lang_flag" src="./empty_files/it.png" loading="lazy" data-lazy-loading-initial-min-height="" style="min-height: 1px;">
+                            <span> Italiano</span>
+                        </a>
+                        <a href="https://www.odoo.com/ja_JP" class="dropdown-item js_change_lang " data-url_code="ja_JP">
+    <img class="o_lang_flag" src="./empty_files/jp.png" loading="lazy" data-lazy-loading-initial-min-height="" style="min-height: 1px;">
+                            <span> 日本語</span>
+                        </a>
+                        <a href="https://www.odoo.com/ko_KR" class="dropdown-item js_change_lang " data-url_code="ko_KR">
+    <img class="o_lang_flag" src="./empty_files/kr.png" loading="lazy" data-lazy-loading-initial-min-height="" style="min-height: 1px;">
+                            <span> 한국어 (KR)</span>
+                        </a>
+                        <a href="https://www.odoo.com/pt_BR" class="dropdown-item js_change_lang " data-url_code="pt_BR">
+    <img class="o_lang_flag" src="./empty_files/br.png" loading="lazy" data-lazy-loading-initial-min-height="" style="min-height: 1px;">
+                            <span> Português (BR)</span>
+                        </a>
+                        <a href="https://www.odoo.com/ru_RU" class="dropdown-item js_change_lang " data-url_code="ru_RU">
+    <img class="o_lang_flag" src="./empty_files/ru.png" loading="lazy" data-lazy-loading-initial-min-height="" style="min-height: 1px;">
+                            <span> русский язык</span>
+                        </a>
+                        <a href="https://www.odoo.com/sk_SK" class="dropdown-item js_change_lang " data-url_code="sk_SK">
+    <img class="o_lang_flag" src="./empty_files/sk.png" loading="lazy" data-lazy-loading-initial-min-height="" style="min-height: 1px;">
+                            <span> Slovenský jazyk</span>
+                        </a>
+                        <a href="https://www.odoo.com/sl_SI" class="dropdown-item js_change_lang " data-url_code="sl_SI">
+    <img class="o_lang_flag" src="./empty_files/si.png" loading="lazy" data-lazy-loading-initial-min-height="" style="min-height: 1px;">
+                            <span> slovenščina</span>
+                        </a>
+                        <a href="https://www.odoo.com/es_ES" class="dropdown-item js_change_lang " data-url_code="es_ES">
+    <img class="o_lang_flag" src="./empty_files/es.png" loading="lazy" data-lazy-loading-initial-min-height="" style="min-height: 1px;">
+                            <span> Español</span>
+                        </a>
+                        <a href="https://www.odoo.com/th_TH" class="dropdown-item js_change_lang " data-url_code="th_TH">
+    <img class="o_lang_flag" src="./empty_files/th.png" loading="lazy" data-lazy-loading-initial-min-height="" style="min-height: 1px;">
+                            <span> ภาษาไทย</span>
+                        </a>
+                        <a href="https://www.odoo.com/tr_TR" class="dropdown-item js_change_lang " data-url_code="tr_TR">
+    <img class="o_lang_flag" src="./empty_files/tr.png" loading="lazy" data-lazy-loading-initial-min-height="" style="min-height: 1px;">
+                            <span> Türkçe</span>
+                        </a>
+                        <a href="https://www.odoo.com/uk_UA" class="dropdown-item js_change_lang " data-url_code="uk_UA">
+    <img class="o_lang_flag" src="./empty_files/ua.png" loading="lazy" data-lazy-loading-initial-min-height="" style="min-height: 1px;">
+                            <span> українська</span>
+                        </a>
+                        <a href="https://www.odoo.com/vi_VN" class="dropdown-item js_change_lang " data-url_code="vi_VN">
+    <img class="o_lang_flag" src="./empty_files/vn.png" loading="lazy" data-lazy-loading-initial-min-height="" style="min-height: 1px;">
+                            <span> Tiếng Việt</span>
+                        </a>
+    
+                </div>
+            </div>
+        
+                            
+                        </div>
+                        <hr class="mt-3 mb-4">
+                        <p class="small text-muted">Odoo is a suite of open source business apps that cover all your company needs: CRM, eCommerce, accounting, inventory, point of sale, project management, etc.</p>
+                        <p class="small text-muted mb-4">Odoo's unique value proposition is to be at the same time very easy to use and fully integrated.</p>
+                        <div class="o_footer_social_media mb-4">
+                            <a target="_blank" href="https://www.facebook.com/odoo" class="me-3"><i class="fa fa-fw fa-facebook"></i></a>
+                            <a target="_blank" href="https://twitter.com/Odoo" class="me-3"><i class="fa fa-fw fa-twitter"></i></a>
+                            <a target="_blank" href="https://www.linkedin.com/company/odoo" class="me-3"><i class="fa fa-fw fa-linkedin"></i></a>
+                            <a target="_blank" href="https://github.com/odoo/odoo" class="me-3"><i class="fa fa-fw fa-github"></i></a>
+                            <a target="_blank" href="https://www.instagram.com/odoo.official" class="me-3"><i class="fa fa-fw fa-instagram"></i></a>
+                            <a target="_blank" href="https://www.tiktok.com/@odoo" class="me-3"><i class="fa fa-fw fa-tiktok"></i></a>
+                            <a target="_blank" href="mailto:info@odoo.com" class="me-3"><i class="fa fa-fw fa-envelope"></i></a>
+                            <a target="_blank" class="me-3" href="tel:+917940500100"><i class="fa fa-fw fa-phone"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        <div class="o_footer_copyright o_not_editable">
+              <div class="container py-3">
+                <div class="row">
+                    <div class="col-sm text-center text-sm-start text-muted">
+                        <span class="o_footer_copyright_name me-2"><a class="small" href="https://www.odoo.com/app/website">Website made with <span class="o_logo o_logo_inverse o_logo_15"></span></a></span>
+                    </div>
+                </div>
+              </div>
+            </div>
+    </footer>
+            <div style="width: 1px; height: 1px; margin-top: -1px;"></div></div>
+          
+        
+        
+        
+        
+        
+        
+        
+        
+        
+         
+        
+        
+         
+
+
+         
+      
+      
+        
+  
+            <div id="o_live_modal" class="modal fade" tabindex="-1" role="dialog" contenteditable="false">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h3 class="mt8"><b>Odoo Experience</b> on YouTube</h3>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"><span title="Close" class="fa fa-times"></span></button>
+                            <p class="text-black">
+                                <b>1.</b> Use the live chat to ask your questions.<br>
+                                <b>2.</b> The operator answers within a few minutes.
+                            </p>
+                        </div>
+                        <div class="modal-body bg-gray-lighter">
+                            <img src="./empty_files/info.gif" class="img img-fluid" alt="Live support on Youtube" loading="lazy">
+                        </div>
+                        <div class="modal-footer">
+                            <a class="btn btn-primary btn-lg" target="_blank" href="https://www.odoo.com/event/odoo-experience-2022-2190/track">Watch now<i class="fa fa-1x fa-long-arrow-right ml8"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+        
+<div class="o-main-components-container"><div class="o_effects_manager"></div><div class="o_dialog_container"><div></div></div><div class="o_notification_manager"></div><div></div><div class="o_notification_manager o_upload_progress_toast"></div><div class="o_popover_container"></div></div></body></html>

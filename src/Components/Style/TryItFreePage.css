@@ -1,0 +1,125 @@
+
+.tryItFreePageHeaderBox{
+   text-align:center;
+   background-color:#99678b;
+   width:100%;
+   margin-top:0;
+
+   height:auto;
+   color:white;
+   padding-top:15px;
+   padding-bottom:10px;
+}
+
+.addedAppAndInstantAccessBox{
+display:flex;
+width:100%;
+}
+.chooseappHeader{
+    margin-bottom:0;
+ 
+}
+.freeInstantAccessText{
+    margin-top:0;
+    text-shadow:0 2px 3px rgb(72, 72, 72); ;
+}
+.tryInstatAccessIconsBox{
+   display:flex;
+    justify-content: space-around;
+    width:100%;
+   
+    margin-left:2rem;
+    align-items:center;
+}
+.radioBox{
+  width:11rem;
+  margin-right:15px;
+  margin-bottom:15px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    background-color: aliceblue;
+    border-radius: 5px;;
+    padding-bottom:0;
+}
+.iconstryfreePage{
+    width:50px;
+    height:52px;
+ 
+  
+}
+.tryInstatAccessIconsBox_{
+    /* width:41.25%;
+    display:flex;
+    justify-content: space-around;
+    margin-left:2rem; */
+
+    display:flex;
+    justify-content: space-around;
+    width:75%;
+     margin-left:2rem;
+    align-items:center;
+}
+.tryInstatAccessIconsBox__{
+  width:50%;
+    display:flex;
+    justify-content: space-around;
+    margin-left:2rem;
+}
+.tryInstatAccessIconsBox_CUSTOMIZATION{
+    width:25%;
+    display:flex;
+    justify-content: space-around;
+    margin-left:2rem;
+}
+.AddedappBox{
+    width:50%;
+    height:auto;
+    margin-left:5%;
+  
+}
+.innerBoxADDEDAPP{
+    width:50%;
+    margin-top:15%;
+padding-left:.6rem;
+padding-top:25px;
+padding-right: .6rem;
+border-radius:5px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.4);
+}
+.freeAndUnlimitedUserBox{
+   background-color: rgb(203, 232, 222);; 
+   width:95%;
+color:rgb(68, 68, 68);
+   margin:auto;
+   padding-left:.7rem;
+   border-radius:5px;
+   height:auto;
+   margin-top:60px;
+   box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
+}
+.continue{
+    border-radius:5px;
+    border:3px solid #017e84;
+    background-color: #017e84;;
+    color:white;
+    width:93%;
+    height:2rem;
+    font-weight: 800;
+    margin:auto;
+    box-shadow: 0px 4px 5px rgba(0, 0, 0, 0.15);
+    margin-top:20px;
+    padding-left:.7rem;
+    margin-bottom:20px;
+}
+.continue:hover{
+    color:black;
+    
+}
+.continue:active{
+    border:2px solid black;
+    color:red;
+}
+.b_o_x{
+    display:flex;
+    
+    align-items: center;
+}

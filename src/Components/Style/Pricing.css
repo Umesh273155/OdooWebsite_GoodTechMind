@@ -1,0 +1,270 @@
+.PricingPageContainer {
+  text-align: center;
+  background-color: rgb(231, 233, 235);
+  margin-top: 0;
+
+  padding-top: 0;
+}
+.pricingHeading {
+  margin-bottom: 10px;
+}
+.yearlyMonthlyBtn {
+  width: 40px;
+  height: 17px;
+  border-radius: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.contentBox {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  margin-top: 20px;
+}
+.OnefreeAppBox {
+  background-color: white;
+  text-align: start;
+  width: 22%;
+  border-top: 10px solid #99678b;
+  padding-left: 2%;
+  margin-left: 4%;
+  padding-bottom: 4%;
+  height: auto;
+  color:rgb(83, 81, 81);
+  border-radius: 5px;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.5);
+
+  
+  padding-bottom: 3%;
+}
+.startBtnBox_first{
+  display: flex;
+
+ 
+  top: 65%;
+  margin-bottom: 10px;
+
+width:100%;
+  align-items: center;
+  /* justify-content: center; */
+}
+.startnowBtn_first {
+  color: white;
+  background-color: #089097;
+  border-radius: 5px;
+ 
+  width:86%;
+ margin-top:50%;
+  height: 2.8rem;
+}
+.startBtnBox_middle{
+
+ 
+  
+  margin-bottom: 10px;
+
+width:30%;
+  
+}
+
+.startnowBtn_middle{
+  color: white;
+  background-color: #089097;
+  border-radius: 5px;
+
+  width:67%;
+ 
+  height: 2.8rem;
+}
+.freeTrialBtn_middle{
+  color: black;
+  background-color:rgb(247, 244, 244);
+  border-radius: 5px;
+  border:1px solid grey;
+  width:67%;
+  
+  height: 2.8rem;
+}
+.startBtnBox_last{
+  
+  color: rgb(227, 224, 224);
+
+  font-weight: 700;
+  color: black;
+
+  border-radius: 5px;
+  margin: auto;
+
+  width:100%; 
+  height:auto;
+}
+.freeTrialBtn_last{
+  color: black;
+  background-color:rgb(247, 244, 244);
+  border-radius: 5px;
+  border:1px solid grey;
+  width:85%;
+  
+  height: 2.8rem;
+}
+.startBtnBox {
+  display: flex;
+
+  position: absolute;
+  top: 65%;
+  margin-bottom: 10px;
+
+
+  align-items: center;
+  justify-content: center;
+}
+.pricingPara_ {
+  line-height: 1.8rem;
+}
+#FreeAppBoxSecond {
+  border-top: 10px solid orange;
+}
+.count {
+  font-size: 2.5rem;
+}
+.allapps {
+  font-size: large;
+  margin-bottom: 0;
+  margin-top: 25px;
+}
+.startnowBtn_last {
+  color: white;
+  background-color: #089097;
+  border-radius: 5px;
+  margin: auto;
+  font-weight: 700;
+  width:86%;
+  height: 3rem;
+}
+.OnefreeAppBox__ {
+  background-color: white;
+  text-align: start;
+  width: 22%;
+  border-top: 10px solid #99678b;
+  padding-left: 2%;
+  margin-left: 4%;
+  
+  color:rgb(108, 106, 106);
+  height: auto;
+  border-radius: 5px;
+  box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.5);
+  padding-bottom: 3%;
+}
+
+.freeTrialBtn {
+  /* border: 1px solid grey;
+  color: rgb(227, 224, 224);
+
+  font-weight: 700;
+  color: black;
+
+  border-radius: 5px;
+  margin: auto;
+
+  width: 16rem;
+  height: 3rem; */
+}
+.startBtnBox_middle {
+  position: absolute;
+  top: 65%;
+
+  align-items: center;
+  justify-content: center;
+}
+.pricingIcons {
+  display: flex;
+  justify-content: center;
+}
+.standardAndCustomPlansPara{
+    margin-top:30px;
+    margin-bottom:15px;
+}
+.xyz{
+    margin-left:2rem;
+}
+.standardAndCustomPlansPara{
+    font-weight: 800;
+    color:rgb(52, 51, 51);
+}
+.allOurPlansPara{
+  margin-top:30px;
+padding-bottom:50px;
+}
+.allplan__{
+  font-weight: 600;
+  color:rgb(66, 66, 66);
+}
+
+.questionBox{
+  background-color:rgb(213, 222, 225);
+  width:100%;
+ color:black;
+ padding-bottom:30px;
+}
+.pricingHeading{
+  text-shadow:0 2px 3px rgb(4, 37, 67);
+
+}
+#onemoreway{
+  text-shadow:0 2px 3px rgb(0, 7, 7);
+  font-size: x-large;
+}
+.standardAndCustomPlansPara{
+  text-shadow:0 2px 3px rgb(146, 145, 145);
+}
+.startnowBtn_last:hover{
+  color:black;
+  text-shadow:0 2px 3px rgb(0, 7, 7);
+}
+.startnowBtn_last{
+  text-shadow:0 2px 3px rgb(76, 77, 77);
+}
+
+.freeTrialBtn_last:hover{
+  color:white;
+  text-shadow:0 2px 3px rgb(76, 77, 77);
+}
+.freeTrialBtn_middle:hover{
+  color:white;
+  text-shadow:0 2px 3px rgb(76, 77, 77);
+}
+.startnowBtn_middle:hover{
+  color:black;
+  text-shadow:0 2px 3px rgb(0, 7, 7);
+}
+.startnowBtn_first:hover{
+  color:black;
+  
+  text-shadow:0 2px 3px rgb(0, 7, 7);
+}
+.question{
+  margin-top:0;
+  margin-bottom:0;
+  border:none;
+  color:#02676d;
+  font-size:larger;
+  outline:none;
+  background-color: rgb(213, 222, 225);;
+  text-shadow:0 2px 3px rgb(186, 182, 182);
+}
+.dot{
+  font-size:40px;
+}
+.ans{
+  margin-top:0;
+  margin-bottom:0;
+  font-weight: 500;
+  margin-left:2%;;
+  color:rgb(79, 78, 78);
+}
+.anyquestion{
+  text-shadow:0 2px 3px rgb(86, 84, 84);
+}
+.administratorPara{
+  font-weight: 500;
+}

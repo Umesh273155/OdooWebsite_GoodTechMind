@@ -1,0 +1,63 @@
+.DiscriptionPage2Container{
+    width:100%;
+    height:auto;
+    margin:0;
+    padding:0;
+    text-align:center;
+    color:black;
+    background-color: white;
+    padding-bottom:30px;
+}
+.discriptionTextSection1{
+    width:40%;
+    height:auto;
+    text-align: start;
+    padding-left:8%;
+    padding-right:5%;
+    padding-top:3.5rem;
+     
+
+}
+.DiscriptionPage2Container{
+    display:flex;
+}
+  
+.discription2ParaMain{
+    margin-top:0;
+    font-size:20px;
+    margin-bottom:1.4rem;
+
+    color:rgb(80, 80, 80);
+}
+.uniqepropositionText{
+    margin-bottom:0;
+    font-size:2rem;
+     
+
+}
+
+.uniqepropositionTextSpan{
+    font-size:4rem;
+    font-weight: 800;
+}
+.discriptionGraphSection{
+    width:35%;
+    margin-top:2.6rem;
+    height:auto;
+  
+    text-align: start;
+    padding-left:2%;
+    /* padding-right:2%; */
+    padding-top:5rem;
+     
+
+}
+.descriptionChildPara{
+    word-spacing: 0.38rem;
+    color:rgb(86, 82, 82);
+}
+
+.discriptionHeader{
+    font-family: bold;
+    text-shadow:0 2px 3px rgb(79, 53, 87);
+}

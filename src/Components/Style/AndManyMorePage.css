@@ -1,0 +1,86 @@
+.andmanymoreInnerBox{
+    width:100%;
+    
+}
+.HeaderAndbeautifulgirlsImageBox{
+    width:100%;
+    background-size:cover;
+    
+}
+.AndManyMoreheaderBox_{
+    width:50%;
+
+}
+.girlsImageBox{
+    width:50%;
+
+}
+.xx{
+    margin-right:10px;
+}
+.b_o_x{
+    display:flex;
+    
+    align-items: center;
+}
+.tryInstatAccessIconsBox{
+    margin:auto;
+}
+.andmoreContent_parent{
+    width:80%;
+   display:flex;
+   justify-content: center;;
+}
+.andmoreContent_parent{
+    display:inline-block;
+}
+.andManyMoreFooterBox{
+    width:100%;
+    color:white;
+    background-color: #714B67;
+    padding-top:10px;
+    padding-bottom:20px;
+}
+.andManyMoreFooterContentBox{
+    text-align:center;
+
+}
+.startnow{
+    background-color:#089097;
+    width:10%;
+    padding:10px 15px;
+    color:white;
+    margin-top:15px;
+    margin-bottom:10px;
+    font-weight: 600;
+    border-radius:7px;
+  
+    text-shadow:0 2px 3px rgb(87, 85, 85);
+}
+.startnow:hover{
+    color:black;
+
+}
+.startnow:active{
+    color:red;
+}
+.unleash{
+    text-shadow:0 2px 3px rgb(35, 35, 35); 
+}
+.noCreditcardPara{
+    font-weight: 600;
+}
+.tryInstatAccess_IconsBox{
+    display:flex;
+    justify-content: space-around;
+    width:100%;
+   
+    margin-left:2rem;
+    align-items:center;
+}
+.andManyMoreFooterBox{
+    width:100%;
+}
+.imgmain{
+width:100%;
+}

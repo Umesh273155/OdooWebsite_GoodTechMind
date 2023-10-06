@@ -1,0 +1,36 @@
+.appPageChildContainer1{
+  display:flex;
+     width:100%;
+     justify-content:space-around;
+      margin-top:3rem;
+      margin-bottom:0;
+      color:rgb(67, 67, 103);
+}
+.newbtn{
+  width:45px;
+  background-color:rgb(67, 67, 103);
+  color:white;
+  font-size: larger;
+  height:5px;
+  padding-left:5px;
+  padding-right:5px;
+  border-radius: 5px;
+}
+.apppagefooterIcons{
+  display:flex;
+  justify-content: center;
+}
+
+
+.pen{
+  width:30px;
+ 
+  height:30px;
+
+}
+.app_para_{
+  line-height: 1.5rem;
+  font-size:small;
+  font-weight: 500;
+  color:rgb(106, 105, 105);
+}

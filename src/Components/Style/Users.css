@@ -1,0 +1,154 @@
+.usersContainer{
+    width:100%;
+    height:auto;
+    background-color:white;
+    margin:0;
+    padding:0;
+  color:black;
+}
+.loveduserAndIndiaCompanyBox{
+    padding-bottom:0;
+    padding-top:5px;
+    display:flex;
+    justify-content: space-around;
+   color:rgb(85, 81, 81);
+    padding-left:10px;
+    width:100%;
+    /* box-shadow: 0 2px 10px grey; */
+}
+
+.usersImagesContainer{
+    width:100%;
+    height:auto;
+    margin-top:5px;
+    
+ 
+   
+}
+.mosaic_2{
+    width:100%;
+    height:70vh;
+}
+.usersfooterBox{
+    width:100%;
+    height:8rem;
+   margin-top:0;
+  color:white;
+    background-color:#714B67;
+    display:flex;
+    padding-top:2%;
+  
+}
+.startNowBtn{
+  
+    border-radius:10px;
+    width:12rem;
+    height:3.2rem;
+    background: #089097;;
+
+   
+}
+
+
+.potentialgrowthAndnoCreditCard{
+    margin-left:10%;
+    margin-right:3%;
+}
+.nocreditPara{
+    margin-left:37%;
+    margin-top:10px;
+    font-weight: 700;
+}
+.startNowBtn{
+    margin-top:2rem;
+   font-size:20px;
+    color:white;
+
+}
+.usersImagesContainer{
+   position:relative
+    
+}
+.noOfUserTextContentBox{
+    color:black;
+position: absolute;
+top:43%;
+left:50%;
+    transform: translate(-50%,-50%);
+    align-items: center;
+    z-index:100;
+     
+  
+  
+    color:black;
+}
+.noOfUserTextContentBox{
+    display:flex;
+    height:10rem;
+    padding-left:1.5rem;
+    padding-right:2rem;
+z-index:5;
+    opacity: 0.8;
+   background-color:white;
+   border-radius: 5px;;
+}
+.sevenText{
+  font-size:9em;;
+}
+.MillionUsers{
+    font-size:3em;
+    font-weight: 500;
+}
+.mosaic_2{
+    opacity: 0.5;
+    z-index: 0.1;
+}
+.growbusinessPara{
+    font-size: 2.2rem;;
+}
+.sevenText{
+    
+    text-shadow:0 2px 3px grey; 
+}
+.MillionUsers{
+    text-shadow:0 2px 3px rgb(0, 0, 0); 
+}
+.growbusinessPara{
+    text-shadow:0 2px 3px rgb(0, 0, 0); 
+}
+.potentialgrowthAndnoCreditCard{
+   
+    text-shadow:0 2px 3px rgb(4, 60, 20); 
+}
+.startNowBtn:hover{
+color:black;
+
+text-shadow:0 2px 3px rgb(0, 0, 0); 
+}
+.startNowBtn{
+    text-shadow:0 2px 3px rgb(19, 19, 19); 
+}
+.toggleBox{
+    width:100%;
+    background-color: white;;
+    border:none;
+    box-shadow: 0 2px 10px grey;
+}
+.ourCustomer{
+   
+     color:white;
+     height:2rem;
+   background-color: #089097;
+     width:20%;;
+       padding:5px 10px;
+      border-radius: 8px;;
+       margin-left:40%;
+       font-weight:700;
+       font-size:larger;
+       border:none;
+       text-shadow:0 2px 3px rgb(84, 82, 82); 
+       box-shadow: o 3px 5px rgb(40, 39, 39);;
+}
+.ourCustomer:hover{
+    color:black;
+}

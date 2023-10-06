@@ -1,0 +1,98 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: content-box;
+}
+.footerHeaderOdoo{
+    margin-bottom:3%;
+  padding-top:1rem;
+}
+.footerContainer{
+    background-color: rgb(30, 37, 44);
+    width:100%;
+    margin-top:0;
+    padding-bottom:60px;
+    color:white;
+height:auto;
+ text-align: center;
+
+  
+}
+.FooterContentLeft{
+    display:flex;
+    width:60%;
+    justify-content: space-around;
+    height:auto;
+   
+text-align: start;
+
+}
+.FooterContentRight{
+ 
+    width:40%;
+   padding-left:4%;
+   padding-right:4%;
+    height:auto;
+ 
+text-align: start;
+}
+.languageselectorBox{
+    margin-bottom:3%;
+}
+.selectLanguage{
+    text-align: start;
+    height:20px;
+}
+.footerIcons
+{ 
+    display:flex;
+    justify-content: space-between;
+ margin-bottom:2%;
+}
+
+
+.Icn{
+    margin-right:1.6rem;
+}
+.Footer_paragraph{
+    color:rgb(189, 187, 187);
+}
+.Footer_paragraph:hover{
+    color:white;
+}
+.footerHeaderOdoo{
+    text-shadow:0 2px 3px yellowgreen; 
+}
+.icons__{
+    margin-right:1.6rem;
+}
+.facebook:hover{
+    color:rgb(64, 64, 235);
+}
+.twitter:hover{
+    color:aqua;
+}
+.Instagram:hover{
+    color:rgb(208, 36, 111)
+}
+.youtube:hover{
+    color:red;
+}
+
+.Linkdin:hover{
+    color:#1a0dab;
+}
+.musicIcon:hover{
+    color:greenyellow;
+}
+.emailBox:hover{
+    color:gold;
+}
+.github:hover{
+    color:grey;
+ 
+}
+.fbLink{
+    text-decoration: none;
+    color:white;
+}

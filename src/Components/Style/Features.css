@@ -1,0 +1,111 @@
+.FeaturesContainer{
+    margin:0;
+     text-align: center;
+    padding:0;
+    padding-top:3%;
+    padding-bottom:3%;
+    color:black;
+    width:100%;
+    height:100%;
+}
+.FeatureiconsBox{
+   
+    width:89%;
+    margin:auto;
+    height:auto;
+    display:flex;
+    margin-top:2%;
+  justify-content: space-around;
+ 
+
+  
+}
+.iconsbox1{
+    display:flex;
+    justify-content: space-between;
+    width:25%;
+    
+}
+.crm{
+    margin-bottom:0;
+
+}
+.FeatureNamepara{
+    margin-top:0;
+    font-size:medium;
+}
+.boxforAddingdiscription{
+    text-align:center;
+    width:22%;
+     /* justify-content: space-around; */
+     margin:auto;
+}
+.iconsAndName{
+   margin-left:20px;
+   
+}
+.featureHeading{
+ font-size:40px;
+ font-family: bold;
+}
+.app_{
+    
+    font-weight:800;
+}
+
+.FeatureiconsBox_{
+    width:89%;
+    margin:auto;
+    height:auto;
+    display:flex;
+  
+ justify-content: space-around;
+   
+  margin:auto;
+}
+
+.iconsbox2_{
+    
+     display:flex;
+
+}
+.boxforAddingdiscription{
+    margin-top:20px;
+    text-align:center;
+}
+.odooImg{
+   height:4.5rem;
+    border-radius: 5px;;
+}
+.invoicing{
+    height:4.5rem;
+    border-radius: 5px;;
+
+}
+.boxforAddingdiscription_{
+    margin-top:20px;
+    text-align:center;
+}
+.addManyMore{
+    width:12rem;
+    height:3rem;
+    background-color: purple;
+    color:white;
+    font-size: large;
+  border-radius: 6px;;
+  margin-top:30px;
+
+}
+.feature_heading_{
+    font-size: .9rem;
+}
+.featureHeading{
+    text-shadow:0 2px 3px rgb(79, 53, 87);
+}
+.addManyMore{
+    text-shadow:0 2px 3px rgb(49, 42, 51);
+}
+.addManyMore:hover{
+    color:black;
+    
+}

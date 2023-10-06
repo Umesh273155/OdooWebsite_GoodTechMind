@@ -1,0 +1,305 @@
+ *{
+    margin-top:0;
+    margin:0;
+    padding:0;
+    box-sizing :border-box;
+ 
+ }
+ 
+.homeContainer{
+      width:100%;
+      height:100%;
+      margin:0;
+      padding:0;
+   
+    background-color: #714B67;;
+    color:white;
+}
+.navbarContainer{
+    width:100%;
+    background-color: #714B67;
+    height:4rem;
+    display:flex;
+    z-index:1000;
+      align-items: center;
+      margin:0;
+      position:fixed;
+      justify-content: space-around;
+      padding:0;
+     box-shadow: 0 3px 5px #99678b; 
+     z-index:100;
+}
+.appCommunityPricingBox{
+    display:flex;
+
+}
+.signinTryfreeBox{
+    display:flex;
+}
+.odoo{
+    font-size: 35px;
+    text-shadow:0 2px 3px rgb(0, 0, 0);
+   
+}
+.navbarText1{
+    margin-right:3rem;
+    text-shadow:0 2px 3px rgb(72, 72, 72);
+
+}
+.signinTryfreeBox{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+}
+.signin{
+    margin-right:3rem;
+    
+}
+
+
+.tryitBtn{
+    width:8rem;
+    height:2rem;
+    color:white;
+  font-size:large;
+  font-weight: 600;
+    background-color:  #089097;
+    border-radius: 13px;;
+    border:3px solid #089097;
+}
+.tryitBtn:active{
+    color:red;
+    border:3px solid rgb(80, 80, 80);
+  
+}
+.tryit:hover{
+    color:black;
+    border-bottom: 3px solid rgb(59, 57, 57);
+}
+
+.homeInnerContainerSection{
+    display:flex;
+    margin:0;
+    padding:0;
+   padding-top:70px;
+
+}
+.locationRegisterBox{
+    width:33rem;
+  
+    height:2.5rem;
+    margin-left:7%;
+    margin-top:5rem;
+    background-color: #46273e;
+    display:flex;
+    padding-right:5px;
+    box-shadow: 0 3px 5px #99678b; 
+   
+}
+.locationRegisterText{
+   display:flex;
+   margin-left:1.7rem;
+   align-items: center;
+   
+
+}
+.register{
+    margin-left:1.3rem
+}
+.homeTextSectionBox{
+ width:42rem;
+ 
+ 
+   margin-left:7%;
+   margin-top:4%;
+}
+.amazondeserveText{
+    font-size:2.5rem;
+   color:white;
+   
+
+
+}
+.amazingsoftwareText{
+    font-size:3rem;
+    letter-spacing: .2rem;;
+ color:white;
+    font-weight: 800;
+    line-height:50px;
+}
+.para2Container{
+    margin-top:20px;
+    color:white;
+    font-weight:500;
+}
+
+ .indianFlagtimingBox{
+ height:2.5rem;
+ display:flex;
+ width:13rem;
+ 
+
+ box-shadow: 0px 3px 5px #99678b; 
+ margin-top:50px;
+ background-color: #46273e;
+ 
+} 
+.startnowAndMeetexpertbtnBox{
+    width:100%;
+    height:3rem;
+  
+    display:flex;
+    align-items:center;
+    padding-bottom:0;
+    margin-top:30px;
+
+}
+.statnowBtn{
+    width:10rem;
+    height:2.5rem;
+    background-color: #089097;
+    border-radius:10px;
+   font-weight: 700;
+}
+.statnowBtn:hover{
+    color:white;
+}
+.MeetExpertBtn{
+    width:10rem;
+    height:2.5rem;
+    font-weight: 700;
+    background-color: #b197aa;
+    border-radius:10px;
+    margin-left:20px;
+    
+}
+.flagTimingPlaystoreBox{
+    width:100%;
+    height:auto;
+    display:flex;
+    
+}
+
+.homePageDesktopImageContainer{
+   
+  
+    height:560px;
+    display:flex;
+    padding-right:30px;
+}
+.MeetExpertBtn:hover{
+color:white;
+}
+.destopImage{
+    width:90%;
+    height:100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+ .msgIcons{
+    width:56px;
+    height:56px;
+    border-radius: 50%;
+   
+    
+  
+} 
+
+.msgBtn{
+    border-radius: 50%;
+    width:50px;
+    height:50px;
+    padding-top:3px;
+    border:2px solid white;
+}
+.msgBtn:active{
+    border:2px solid #46273e;
+}
+.googleplaystore{
+    width:10rem;
+    height:3rem;
+    border-radius: 10px;
+}
+.timingBox{
+    margin-left:10px;
+    color:white;
+}
+.googleplaystoreBox{
+    width:9rem;
+    height:2rem;
+    border-radius:10px;
+    margin-top:40px;
+  
+}
+.gpstoreBox{
+   
+    border-radius:10px;
+    width:10.1rem;
+    height:3.2rem;
+    /* border:2px solid #089097; */
+    
+}
+.gpstoreBox:active{
+    border:2px solid white;
+}
+.homeTextSectionBox{
+    color:black;
+}
+
+.linkHoveringClass{
+    color:white;
+    text-decoration: none;
+}
+
+.linkHoveringClass:hover{
+    color:black;
+}
+.linkHoveringClass:active{
+    color:red;
+}
+.tryitBtn:hover{
+    color:black;
+}
+.navbarText1{
+    text-shadow:0 2px 3px rgb(22, 22, 22);
+}
+.signin{
+    text-shadow:0 2px 3px rgb(25, 25, 25);
+}
+.tryitBtn{
+    text-shadow:0 2px 3px rgb(97, 96, 96);
+}
+.register{
+    text-shadow:0 2px 3px rgb(3, 3, 3);
+}
+.location{
+    text-shadow:0 2px 3px rgb(37, 37, 37);
+}
+.timingBox{
+    text-shadow:0 2px 3px rgb(37, 37, 37);
+}
+.amazingsoftwareText{
+  
+    text-shadow:0 2px 3px rgb(37, 37, 37);
+}
+.registeration:hover{
+    color:black;
+    text-shadow:0 2px 3px rgb(101, 99, 99);
+}
+.registeration{
+    color:rgb(15, 232, 225);
+    text-shadow:0 2px 3px rgb(26, 25, 25);
+    margin-left:10px;
+}
+.msgBtn:hover{
+    
+    background-color: black;;
+}
+.msgBtn:active{
+    color:gold;
+}
+.msgBtn:hover{
+    color:white;
+}

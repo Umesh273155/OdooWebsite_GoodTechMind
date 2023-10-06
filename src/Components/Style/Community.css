@@ -1,0 +1,88 @@
+.communityChildBox1{
+    display:flex;
+    justify-content: space-around;
+margin-top:5%;
+margin-bottom:2%;
+}
+.communityChildBox2{
+    display:flex;
+    justify-content: space-between;
+    margin-left:7%;
+}
+
+.communityBoxHeader{
+   color:#089097;
+    margin-bottom:1.2rem;
+}
+.icons_box_community{
+    display:flex;
+    justify-content: center;
+}
+.icnCommunity{
+    margin-right:2rem;
+    width:25px;
+    height:25px;
+}
+.phone_calender_box{
+    display:flex;
+    justify-content: center;
+}
+.icCall{
+    width:25px;
+    margin-top:15px;
+    height:30px;
+   
+}
+.CommunityFooterParagraph{
+    font-size: small;
+    margin-top:20px;
+}
+.communityPara{
+    color:rgb(104, 103, 103);
+    font-weight: 600;
+line-height: 1.5rem;;
+    font-size:small;
+}
+.communityPara:hover{
+    color:#089097;
+}
+.materialIcons{
+    margin-right:2%;
+}
+#youtube:hover{
+    color:red;
+}
+#twitter:hover{
+    color:rgb(20, 170, 170);
+}
+#linkedin:hover{
+color:blue;
+}
+#facebook:hover{
+    color:rgb(69, 69, 172);
+}
+#instagram:hover{
+    color:rgb(231, 129, 146);
+
+}
+#music:hover{
+    color:yellow;
+}
+#githubb:hover{
+    color:rgb(174, 119, 230);
+}
+.materialIcons_{
+    margin-right:7px;
+    margin-top:15px;
+}
+#call:hover{
+    color:rgb(111, 255, 0);
+}
+#date:hover{
+    color:#089097;
+}
+.fbLink_{
+    text-decoration: none;
+    color:rgb(62, 62, 62);
+    margin-left:13px;
+}
